@@ -10,10 +10,10 @@ body {
   display: block;
   text-align: right;
 }
-#header img {
+#header .header-image {
   width: 100%;
 }
-.header-more {
+.header-link {
   font-family: fantasy, cursive;
 }
 
