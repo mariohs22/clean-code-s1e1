@@ -13,39 +13,38 @@ body {
 #header img {
   width: 100%;
 }
-#header .more_inf {
+.header-more {
   font-family: fantasy, cursive;
 }
 
-@media (max-width:768px) {
-
+@media (max-width: 768px) {
   #header {
     text-align: center;
   }
-
 }
 #main {
   display: block;
   width: 500px;
   margin: 0 auto 0;
 }
-.task {
+.new-task {
   width: 56%;
   display: inline-block;
+  width: 318px;
   flex-grow: 1
 }
-.task-row-wrapper {
+.new-task-wrapper {
   display: flex;
 }
 ul {
-  margin:0;
+  margin: 0;
   padding: 0px;
 }
 li, h3 {
-  list-style:none;
+  list-style: none;
 }
 input,button{
-  outline:none;
+  outline: none;
 }
 button {
   background: none;
@@ -90,9 +89,6 @@ input[type="text"]:focus {
 label[for="new-task"] {
   display: block;
   margin: 0 0 20px;
-}
-input#new-task {
-  width: 318px;
 }
 p > button:hover {
   color: #0FC57C;
@@ -143,14 +139,14 @@ ul#completed-tasks label {
 
 /* Edit Task */
 ul li input[type=text] {
-  display:none
+  display: none
 }
 
 ul li.editMode input[type=text] {
-  display:inline-block;
-  width:224px
+  display: inline-block;
+  width: 224px
 }
 
 ul li.editMode label {
-  display:none;
+  display: none;
 }
