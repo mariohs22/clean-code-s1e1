@@ -15,41 +15,41 @@
   </header>
   <main id="main">
     <section>
-      <label for="new-task">Add Item</label>
+      <h3>Add Item</h3>
       <div class="new-task-wrapper">
-        <input id="new-task" class="new-task" type="text">
-        <button>Add</button>
+        <input type="text" class="input-text" id="new-task-input">
+        <button id="new-task-button-add">Add</button>
       </div>
     </section>
     <h3>Todo</h3>
     <ul id="tasks-todo">
       <li>
-        <input type="checkbox">
-        <label class="task">Pay Bills</label>
-        <input type="text">
-        <button class="edit">Edit</button>
-        <button class="delete">
+        <input type="checkbox" class="input-checkbox">
+        <label>Pay Bills</label>
+        <input type="text" class="input-text">
+        <button class="button-edit">Edit</button>
+        <button class="button-remove">
           <img src="./remove.svg" alt="Remove">
         </button>
       </li>
-      <li class="editMode">
-        <input type="checkbox">
-        <label class="task">Go Shopping</label>
-        <input type="text" value="Go Shopping" class="task">
-        <button class="edit">Save</button>
-        <button class="delete">
+      <li class="task-edit">
+        <input type="checkbox" class="input-checkbox">
+        <label>Go Shopping</label>
+        <input type="text" class="input-text" value="Go Shopping">
+        <button class="button-edit">Save</button>
+        <button class="button-remove">
           <img src="./remove.svg" alt="Remove">
         </button>
       </li>
     </ul>
     <h3>Completed</h3>
-    <ul id="completed-tasks">
+    <ul id="tasks-completed">
       <li>
-        <input type="checkbox" checked>
-        <label class="task">See the Doctor</label>
-        <input type="text" class="task">
-        <button class="edit">Edit</button>
-        <button class="delete">
+        <input type="checkbox" class="input-checkbox" checked>
+        <label>See the Doctor</label>
+        <input type="text" class="input-text">
+        <button class="button-edit">Edit</button>
+        <button class="button-remove">
           <img src="./remove.svg" alt="Remove">
         </button>
       </li>
